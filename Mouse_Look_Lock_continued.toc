@@ -1,0 +1,14 @@
+## Interface: 110105
+## Title: Mouse_Look_Lock
+## Version: 7.1
+## Original Author: Trimble Epic (TrimbleEpic@HotMail.Com)
+## Continued by: the CurseForge community and Pav_Sg (Pav)
+## Notes: Allows you to lock 'MouseLook' (hold right mouse button) on.
+## DefaultState: enabled
+## X-Category: Interface Enhancements
+## LoadOnDemand: 0
+## SavedVariables: MouseLookOn
+
+MouseLook.xml
+
+

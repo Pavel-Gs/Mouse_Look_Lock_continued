@@ -1,0 +1,53 @@
+--[[------------------------------------------------------------
+	Mouse Look v7.0
+	
+	By Trimble Epic
+	
+	This mod allows a button to be mapped to allow
+	WoW to simulate the Mouselook mode found in DAoC.
+	
+	The code below is a work-around for the
+	way WoW handles it's mouse controlled camera functions
+	
+	Revision History
+	7.0 Jul 29 '16  Updated TOC for use with 7.0 Legion
+	6.0 Nov 13 '14  Updated TOC for use with 6.0 Wod
+	5.1 Aug 11 '14  Updated TOC for use with 5.4 Cataclysm
+			Also added many new user interface windows to automatically pop up cursor.
+
+	5.0 Aug 29 '12  Updated TOC for use with 5.0.4 Mists of Pandaria
+
+	4.0 Oct 12 '10  Updated the addon to fix some code issues.  Blizzard removed "this", as well as
+			a few other "features" like values passed as "arg1" in XML code.  I also updated
+			the TOC for use with 4.0.1
+	3.2 Aug 16 '09
+			Updated TOC for use with 3.2
+	3.1 Apr 15 '09
+			Updated TOC for use with 3.1
+	2.2 Oct 14 '08
+			Updated TOC for use with 3.0.2
+	2.1 Aug 4 '08
+			Updated TOC for use with 2.4
+			Fixed bug associated with sRaidFrames (wouldn't return to mouselook mode)
+			Fixed bug so that mouselook setting is started when entering the world
+	1.6 Nov 3
+			Updated TOC for use with patch 1.12
+	1.5 Mar 29
+			Updated TOC for use with patch 1.10
+			Changed essential functions used to engage and disengage mouselook to comply with new 1.10 rules
+	1.4	Jun 20
+			Updated TOC for use with version 1500 of game client
+	1.3	Feb 22
+			Updated TOC for use with version 4216 of game client
+	1.2	Feb 15
+			Updated TOC for use with version 4211 of game client
+			Reworked Lua file to contain all code internally to reduce stray code in bindings.xml
+			Reworked bindings.xml to be cleaner and leaner
+			Added some code in an attempt to fix 'walklock' issue.
+	1.1	I wasn't keeping track of changes prior to 1.2, but it should be sufficient to say that
+			1.1 was pretty much a stable release.
+
+	Todo notes:
+	Implement MouseOverFrame function and increase update speed
+	
+--------------------------------------------------------------]]
