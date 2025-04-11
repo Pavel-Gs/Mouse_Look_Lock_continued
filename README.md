@@ -13,4 +13,6 @@ Don't forget to set your "MouseLook toggle" keybind (see screenshot).
 ### `Description`
 Enables mouselook by holding right mouse button automatically, so the game plays more like an action RPG.
 Mouselook turns off when AOE casting or when certain UI windows are open.
+The addon does not provide a reticle (I use "FarmHud" addon for that).
+I use modified "Cycle Arena" addon to scroll through party/raid members while mouselook is on.
 (most, but not all of the situations are implemented, so manually turning the cursor on/off may be needed occasionally)
