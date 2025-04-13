@@ -2,7 +2,7 @@
 
 LUA WoW addon.
 
-[Published on CurseForge |==>](https://www.curseforge.com/wow/addons/)
+[Published on CurseForge |==>](https://www.curseforge.com/wow/addons/mouse-look-lock-continued)
 
 ### `Foreword`
 Originally developed by TrimbleEpic.
